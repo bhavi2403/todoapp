@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0078d7;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page {
+  padding: 20px;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+  height: 100vh;
+}
+
+.app.dark {
+  background-color: #222222;
+  color: #ffffff;
+  height: 100vh;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
